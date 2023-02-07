@@ -20,17 +20,4 @@ export default defineNuxtConfig({
       }),
     ],
   },
-  router: {
-    middleware: ["routing"],
-  },
-  // router: {
-  //   extendRoutes(routes, resolve) {
-  //     console.warn(routes);
-  //     routes.push({
-  //       name: "product",
-  //       path: "/product/:id",
-  //       component: resolve(__dirname, "pages/product/_id.vue"),
-  //     });
-  //   },
-  // },
 });
